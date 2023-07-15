@@ -5,8 +5,17 @@ This repository contains all the files needed to start the on site phase of the 
 
 ## credentials to Jenkins
 ### Admin
-Login: NuweBarcelonaHackathonAdmin
+Login: NuweBarcelonaHackathonAdmin \
 Password: AdminTest123
 
 ## Jenkins authentication token
 13f6e94c-69a9-4640-afab-2899863966d6
+
+## Installed plugins in Jenkins
+Git, Docker, Docker Pipeline, Terraform
+
+## Created a job in Jenkins (validate-and-build)
+## Connected jenkins job to Gogs repository
+
+## Added webhook to Gogs
+http://172.21.0.3:3000/gogs-webhooks/?job=
