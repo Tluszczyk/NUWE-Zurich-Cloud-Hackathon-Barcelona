@@ -17,5 +17,9 @@ Git, Docker, Docker Pipeline, Terraform
 ## Created a job in Jenkins (validate-and-build)
 ## Connected jenkins job to Gogs repository
 
+## Added LOCAL_NETWORK_ALLOWLIST = * to app.ini for gogs
+
 ## Added webhook to Gogs
 http://172.21.0.3:3000/gogs-webhooks/?job=
+
+## Added priviiliged mode to jenkins docker compose definition
