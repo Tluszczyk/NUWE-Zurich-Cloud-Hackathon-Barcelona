@@ -7,12 +7,12 @@ import boto3
 app = Flask(__name__)
 
 # S3 bucket name
-Bucket_Name = '' # Your s3 bucket name
+Bucket_Name = 'images' # Your s3 bucket name
 
 # AWS Creds
-AWS_ACCESS_KEY = ''
-AWS_SECRET_ACCESS_KEY = ''
-AWS_REGION = ''
+AWS_ACCESS_KEY = 'fake'
+AWS_SECRET_ACCESS_KEY = 'fakee'
+AWS_REGION = 'us-east-1'
 
 # S3 Client
 s3_client = boto3.client('s3',aws_access_key_id=AWS_ACCESS_KEY, aws_secret_access_key=AWS_SECRET_ACCESS_KEY, region_name=AWS_REGION)

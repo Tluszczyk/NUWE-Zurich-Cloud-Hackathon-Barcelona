@@ -1,0 +1,7 @@
+src/terraform/.terraform*
+
+src/terraform/*.pem
+
+src/terraform/*.tfstate*
+
+docker
