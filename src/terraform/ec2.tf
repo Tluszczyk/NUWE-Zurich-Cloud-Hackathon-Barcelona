@@ -2,6 +2,7 @@
 
 locals {
     user_data_files = [
+        "../app/requirements.txt",
         "../app/app_ls.py",
         "../app/index.html"
     ]
