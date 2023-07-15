@@ -49,7 +49,7 @@ services:
       context: .
       dockerfile: ./Dockerfile
     container_name: jenkins_master
-    privileged: true
+    # privileged: true
     depends_on:
       - localstack
       - github_local
